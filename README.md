@@ -1,6 +1,6 @@
 # 3D Portfolio using Vite + React + Three.js
 
-![Project Image/Preview]("C:\Users\Ayush\Pictures\Screenshots\Screenshot 2024-01-01 230807.png")
+<img width="779" alt="portfolio ss" src="https://github.com/Mansi168/my-3d-portfolio/assets/99342612/5e314373-e2db-418f-b7f5-936ea29a1a2b">
 
 A 3D portfolio demonstrating interactive 3D graphics and animations built with Vite, React, and Three.js.
 
