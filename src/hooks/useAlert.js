@@ -1,6 +1,6 @@
 //custom hook
 
-import React, { useState } from 'react'
+import React, { useState } from 'react';
 
 const useAlert = () => {
 

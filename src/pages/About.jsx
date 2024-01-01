@@ -1,7 +1,7 @@
 import React from 'react'
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
-import {skills,experiences} from '../constants'
+import {skills,experiences, socialLinks} from '../constants'
 import CTA from '../components/CTA';
 
 const About = () => {
@@ -83,7 +83,33 @@ const About = () => {
               ))}
             </VerticalTimeline>
           </div>
+
+
       </div>
+
+    <div className='py-10 flex flex-col'>
+      <h3 className='subhead-text'>Social Links</h3>
+      <div className='mt-16 flex flex-wrap gap-12'>
+        {socialLinks.map((link) => (
+          <a
+            href={link.link}
+            key={link.name}
+            target='_blank'
+            rel='noopener noreferrer'
+            className='block-container w-20 h-20 relative'
+          >
+            <div className='btn-back rounded-xl'></div>
+            <div className='btn-front rounded-xl flex justify-center items-center'>
+              <img
+                src={link.iconUrl}
+                alt={link.name}
+                className='w-1/2 h-1/2 object-contain'
+              />
+            </div>
+          </a>
+        ))}
+      </div>
+    </div>
 
       <hr className='border-slate-200'/>
       <CTA/>

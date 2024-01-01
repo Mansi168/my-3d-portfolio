@@ -1,4 +1,4 @@
-import { meta, shopify, starbucks, tesla } from "../assets/images";
+import { meta, shopify, starbucks, tesla, maruti, igdtu, assetmerkle} from "../assets/images";
 import {
     car,
     contact,
@@ -32,11 +32,11 @@ export const skills = [
         name: "CSS",
         type: "Frontend",
     },
-    {
-        imageUrl: express,
-        name: "Express",
-        type: "Backend",
-    },
+    // {
+    //     imageUrl: express,
+    //     name: "Express",
+    //     type: "Backend",
+    // },
     {
         imageUrl: git,
         name: "Git",
@@ -62,11 +62,11 @@ export const skills = [
         name: "MongoDB",
         type: "Database",
     },
-    {
-        imageUrl: motion,
-        name: "Motion",
-        type: "Animation",
-    },
+    // {
+    //     imageUrl: motion,
+    //     name: "Motion",
+    //     type: "Animation",
+    // },
     {
         imageUrl: mui,
         name: "Material-UI",
@@ -87,16 +87,16 @@ export const skills = [
         name: "React",
         type: "Frontend",
     },
-    {
-        imageUrl: redux,
-        name: "Redux",
-        type: "State Management",
-    },
-    {
-        imageUrl: sass,
-        name: "Sass",
-        type: "Frontend",
-    },
+    // {
+    //     imageUrl: redux,
+    //     name: "Redux",
+    //     type: "State Management",
+    // },
+    // {
+    //     imageUrl: sass,
+    //     name: "Sass",
+    //     type: "Frontend",
+    // },
     {
         imageUrl: tailwindcss,
         name: "Tailwind CSS",
@@ -111,57 +111,52 @@ export const skills = [
 
 export const experiences = [
     {
-        title: "React.js Developer",
-        company_name: "Starbucks",
-        icon: starbucks,
-        iconBg: "#accbe1",
-        date: "March 2020 - April 2021",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "React Native Developer",
-        company_name: "Tesla",
-        icon: tesla,
+        title: "Research Internship",
+        company_name: "IGDTUW",
+        icon: igdtu,
         iconBg: "#fbc3bc",
-        date: "Jan 2021 - Feb 2022",
+        date: "June 2022 - August 2022",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "A 6-week long research internship program offered by IGDTUW under Dr. Devendra K. Tayal, CSE Department",
+            "Worked on a research project in a group of three where we analysed the application and effects of monotonic properties using various machine learning algorithms",
         ],
     },
     {
-        title: "Web Developer",
-        company_name: "Shopify",
-        icon: shopify,
+        title: "Digital Enterprise Intern",
+        company_name: "Maruti Suzuki India Limted",
+        icon: maruti,
+        iconBg: "#accbe1",
+        date: "June 2023 - July 2023",
+        points: [
+            "Done the sentiment analysis of the google reviews extracted from various websites about the dealers of Maruti Suzuki by their customers and analyzed the performance in the market.",
+            "Build a project named 'Critical Parameter' to evaluate the values of Cp and Cpk to determine the dimensions of auto components using PySpark from data provided by the supply chain of various vendors associated with Maruti.",
+        ],
+    },
+    {
+        title: "Developer at AssetMerkle IGDTUW",
+        company_name: "AssetMerkle",
+        icon: assetmerkle,
         iconBg: "#b7e4c7",
-        date: "Jan 2022 - Jan 2023",
+        date: "March 2023 - Dec 2023",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Developed the fullstack Assetmantle's official website using React.",
+            "Using Git, code was pushed via the development, integration, and staging environments.",
+            "Member of the organising team for the 24-hour offline hackathon 'Build for the future' and contributed in the development of the hackathon website.",
         ],
-    },
-    {
-        title: "Full stack Developer",
-        company_name: "Meta",
-        icon: meta,
-        iconBg: "#a2d2ff",
-        date: "Jan 2023 - Present",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
+    }
+    // {
+    //     title: "Full stack Developer",
+    //     company_name: "Meta",
+    //     icon: meta,
+    //     iconBg: "#a2d2ff",
+    //     date: "Jan 2023 - Present",
+    //     points: [
+    //         "Developing and maintaining web applications using React.js and other related technologies.",
+    //         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+    //         "Implementing responsive design and ensuring cross-browser compatibility.",
+    //         "Participating in code reviews and providing constructive feedback to other developers.",
+    //     ],
+    // },
 ];
 
 export const socialLinks = [
@@ -173,12 +168,12 @@ export const socialLinks = [
     {
         name: 'GitHub',
         iconUrl: github,
-        link: 'https://github.com/YourGitHubUsername',
+        link: 'https://github.com/Mansi168',
     },
     {
         name: 'LinkedIn',
         iconUrl: linkedin,
-        link: 'https://www.linkedin.com/in/YourLinkedInUsername',
+        link: 'https://www.linkedin.com/in/mansi-jangra-33a77622a/',
     }
 ];
 
