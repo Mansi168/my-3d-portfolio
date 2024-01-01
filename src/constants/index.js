@@ -23,7 +23,10 @@ import {
     summiz,
     tailwindcss,
     threads,
-    typescript
+    typescript,
+    mngwise,
+    umatter,
+    transcare
 } from "../assets/icons";
 
 export const skills = [
@@ -102,11 +105,11 @@ export const skills = [
         name: "Tailwind CSS",
         type: "Frontend",
     },
-    {
-        imageUrl: typescript,
-        name: "TypeScript",
-        type: "Frontend",
-    }
+    // {
+    //     imageUrl: typescript,
+    //     name: "TypeScript",
+    //     type: "Frontend",
+    // }
 ];
 
 export const experiences = [
@@ -181,43 +184,50 @@ export const projects = [
     {
         iconUrl: pricewise,
         theme: 'btn-back-red',
-        name: 'Amazon Price Tracker',
-        description: 'Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.',
-        link: 'https://github.com/adrianhajdin/pricewise',
+        name: 'Automate Verification with Discord Bot',
+        description: 'Are you tired of manually verifying participant entries for challenges like 30 days of code, code-everyday, or open-source-september? Say goodbye to time-consuming verification processes and hello to automation with our Discord bot!',
+        link: 'https://github.com/Mansi168/OpenQuest-DiscordBot',
     },
     {
         iconUrl: threads,
         theme: 'btn-back-green',
-        name: 'Full Stack Threads Clone',
-        description: 'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
-        link: 'https://github.com/adrianhajdin/threads',
+        name: 'EV-Charging-Stations-Analysis',
+        description: 'The project aims to analyze charger station uptime comprehensively. It examines daily/hourly patterns, compares station performance, explores correlations with station attributes, and attempts predictive analysis for future uptime. This multifaceted approach seeks to uncover usage trends, outliers, and potential influencing factors, aiding proactive maintenance and operational efficiency. ',
+        link: 'https://github.com/Mansi168/EV-Charging-Stations-Analysis',
     },
     {
-        iconUrl: car,
+        iconUrl: mngwise,
         theme: 'btn-back-blue',
-        name: 'Car Finding App',
-        description: 'Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.',
-        link: 'https://github.com/adrianhajdin/project_next13_car_showcase',
+        name: 'ManageWise Clone',
+        description: 'It is a landing page clone of the website ManageWise made in html, css, js.',
+        link: 'https://github.com/Mansi168/HireQuotient',
     },
     {
         iconUrl: snapgram,
         theme: 'btn-back-pink',
-        name: 'Full Stack Instagram Clone',
-        description: 'Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.',
-        link: 'https://github.com/adrianhajdin/social_media_app',
+        name: 'Spotify-Google-Review-NLP',
+        description: 'This is a natural language processing project where analysis is done on a large dataset of Spotify google reviews.',
+        link: 'https://github.com/Mansi168/Spotify-Google-Review-NLP',
     },
     {
-        iconUrl: estate,
+        iconUrl: umatter,
         theme: 'btn-back-black',
-        name: 'Real-Estate Application',
-        description: 'Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.',
-        link: 'https://github.com/adrianhajdin/projects_realestate',
+        name: 'UMatter',
+        description: 'UMatter is a one and all platform to help people quit bad habits by providing them with personalized sessions and one-to-one consultations with professionals.',
+        link: 'https://github.com/Mansi168/BugSmashers',
     },
     {
-        iconUrl: summiz,
+        iconUrl: transcare,
         theme: 'btn-back-yellow',
-        name: 'AI Summarizer Application',
-        description: 'App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.',
-        link: 'https://github.com/adrianhajdin/project_ai_summarizer',
-    }
+        name: 'TransCare',
+        description: 'This initiative is dedicated to fostering an inclusive and supportive environment that empowers individuals from marginalized genders to access information, discuss, and explore topics related to sexual health and their community life experiences. ',
+        link: 'https://github.com/Mansi168/TransCare',
+    },
+    {
+        iconUrl: threads,
+        theme: 'btn-back-black',
+        name: 'Game Development- Diamond Digger',
+        description: 'In this Endless runner game, you will be controlling a character Kate running through an endless terrain. You will have to dodge obstacles and collect coins as you go. You will also have to use your special abilities to help you get to the end of the level as fast as you can.',
+        link: 'https://github.com/Mansi168/Game1',
+    },
 ];

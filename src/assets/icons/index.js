@@ -26,6 +26,9 @@ import arrow from './arrow.svg'
 import contact from './contact.svg'
 import soundon from './soundon.png'
 import soundoff from './soundoff.png'
+import mngwise from './mngwise.png'
+import umatter from './umatter.png'
+import transcare from './transcare.png'
 
 export {
     css,
@@ -55,5 +58,8 @@ export {
     arrow,
     contact,
     soundon,
-    soundoff
+    soundoff,
+    mngwise,
+    umatter,
+    transcare
 }
