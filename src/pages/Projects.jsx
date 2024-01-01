@@ -3,6 +3,7 @@ import React from 'react'
 import { projects } from '../constants'
 import { Link } from 'react-router-dom'
 import CTA from '../components/CTA'
+import { arrow } from '../assets/icons'
 
 const Projects = () => {
   return (
