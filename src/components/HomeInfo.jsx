@@ -26,7 +26,7 @@ const renderContent = {
             btnText='Learn more'
         />
     ),
-    4 : (
+    3 : (
         <InfoBox 
             text= "Built multiple projects over my journey"
             link='/projects'
