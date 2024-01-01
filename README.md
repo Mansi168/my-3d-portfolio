@@ -1,6 +1,6 @@
 # 3D Portfolio using Vite + React + Three.js
 
-![Project Image/Preview](link/to/your/project/image.png)
+![Project Image/Preview]("C:\Users\Ayush\Pictures\Screenshots\Screenshot 2024-01-01 230807.png")
 
 A 3D portfolio demonstrating interactive 3D graphics and animations built with Vite, React, and Three.js.
 
@@ -10,7 +10,6 @@ https://my-3d-portfolio-five.vercel.app/
 ## Table of Contents
 
 - [Introduction](#introduction)
-- [Demo](#demo)
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
