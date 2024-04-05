@@ -136,7 +136,7 @@ export const experiences = [
         ],
     },
     {
-        title: "Developer at AssetMerkle IGDTUW",
+        title: "Technical Core at AssetMerkle IGDTUW",
         company_name: "AssetMerkle",
         icon: assetmerkle,
         iconBg: "#b7e4c7",
@@ -146,20 +146,20 @@ export const experiences = [
             "Using Git, code was pushed via the development, integration, and staging environments.",
             "Member of the organising team for the 24-hour offline hackathon 'Build for the future' and contributed in the development of the hackathon website.",
         ],
-    }
-    // {
-    //     title: "Full stack Developer",
-    //     company_name: "Meta",
-    //     icon: meta,
-    //     iconBg: "#a2d2ff",
-    //     date: "Jan 2023 - Present",
-    //     points: [
-    //         "Developing and maintaining web applications using React.js and other related technologies.",
-    //         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-    //         "Implementing responsive design and ensuring cross-browser compatibility.",
-    //         "Participating in code reviews and providing constructive feedback to other developers.",
-    //     ],
-    // },
+    },
+    {
+        title: "Research Internship",
+        company_name: "IGDTUW",
+        icon: igdtu,
+        iconBg: "#fbc3bc",
+        date: "June 2023 - Present",
+        points: [
+            "Developing a full-stack web application for dairy management, emphasizing A2 milk products and facilitating efficient distribution.",
+            "Implementing an intuitive admin dashboard enabling dairy farm owners to oversee operations, manage cattle, and track product sales seamlessly.",
+            "Focused on promoting healthy A2 milk products while streamlining dairy operations through innovative technological solutions.",
+            "Grounded in extensive research, the project represents a pioneering effort to modernize and optimize dairy management practices for enhanced efficiency and sustainability.",
+        ],
+    },
 ];
 
 export const socialLinks = [
@@ -181,6 +181,27 @@ export const socialLinks = [
 ];
 
 export const projects = [
+    {
+        iconUrl: pricewise,
+        theme: 'btn-back-green',
+        name: 'IGDTUW-CSE-Research-Conclave',
+        description: 'Built website for research conclave organised by CSE department of IGDTUW, an event full of speaker sessions of cutting edge technologies and other competitions.',
+        link: 'https://github.com/Mansi168/igdtuw-cse-research-showcase',
+    },
+    {
+        iconUrl: pricewise,
+        theme: 'btn-back-red',
+        name: 'Emotional Well Being Chatbot',
+        description: 'Built a conversational chatbot using LLM Gemini-AI and Streamlit, offering a user-friendly interface for emotional well being interactions. The chatbot employs Gemini-AI advanced capabilities to understand and respond to user queries effectively.',
+        link: 'https://github.com/Mansi168/emowellbeing',
+    },
+    {
+        iconUrl: pricewise,
+        theme: 'btn-back-blue',
+        name: 'Cervical Shield',
+        description: 'At CervicalShield, we are dedicated to raising awareness, providing resources, and offering guidance on cervical cancer prevention and screening. Our web app serves as a one-stop destination for individuals seeking information, support, and access to cervical cancer resources.',
+        link: 'https://github.com/Mansi168/cervical-shield',
+    },
     {
         iconUrl: pricewise,
         theme: 'btn-back-red',
